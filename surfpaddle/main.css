@@ -1,0 +1,61 @@
+/*font-family: 'Oswald', sans-serif;
+font-family: 'Open Sans', sans-serif;*/
+
+.container{
+  width:1300px;
+  height:2104px;
+  margin:auto;
+}
+/* header */
+header{
+  width:1300px;
+  height:523px;
+  background: url(assets/header.jpg);
+  position:relative;
+}
+.title{
+  position: absolute;
+  width:500px;
+  height:100px;
+  top:50%;
+  left:650px;
+  color:white;
+}
+.title h2 {
+  display: block;
+  position:absolute;
+  font-weight: bold;
+}
+.title h5 {
+  display: block;
+  position:absolute;
+  font-weight: bold;
+}
+
+.blog-title{
+  position: absolute;
+  float:left;
+  margin: 10px;
+  width: 350px;
+  height:10px;
+}
+.blog-title img{
+  float:left;
+  margin-top:auto;
+  margin-bottom:auto;
+}
+
+
+.nav{
+  float:right;
+  width:300px;
+}
+.nav h2{
+  float:left;
+}
+
+.search {
+  float: left;
+  margin-left: 10px;
+}
+/* ^header^ */
