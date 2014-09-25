@@ -1,7 +1,45 @@
-font-family: 'Oswald', sans-serif;
-font-family: 'Open Sans', sans-serif;
+/*font-family: 'Oswald', sans-serif;
+font-family: 'Open Sans', sans-serif;*/
 
-.header{
+.container{
   width:1300px;
-
+  height:2104px;
+  margin:auto;
 }
+/* header */
+header{
+  width:1300px;
+  height:523px;
+  background: url(assets/header.jpg);
+  position:relative;
+}
+.title{
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  color:white;
+}
+.title h2 {
+  display: block;
+  position:absolute;
+  font-weight: bold;
+}
+.title h5 {
+  display: block;
+  position:absolute;
+  font-weight: bold;
+}
+
+.blog-title{
+  position: absolute;
+  float:left;
+  margin: 10px;
+  width: 350px;
+  height:10px;
+}
+
+
+.nav{
+  float:right;
+}
+/* ^header^ */
