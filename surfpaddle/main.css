@@ -103,20 +103,21 @@ article {
 .pre-footer {
   height: 476px;
   margin-bottom: 0;
-}
-.most-popular h3 {
-  text-align: center;
-  margin: 0 auto;
-  display: block;
-  font-family: 'Oswald', sans-serif;
-  font-size: 61px;
-  padding-top: 23px;
-  color: HSLA(204, 82%, 18%, 1);
-  border-top-style: solid;
+  border-top-style:solid;
   border-color: HSLA(203, 17%, 91%, 1);
   border-width: 1px;
 }
 
+.most-popular h3 {
+text-align: center;
+display: block;
+font-family: 'Oswald', sans-serif;
+font-size: 61px;
+padding-top: 0px;
+color: HSLA(204, 82%, 18%, 1);
+margin-top: 22px;
+margin-bottom: 31px;
+}
 
 
 .pre-footer-images-box {
@@ -124,16 +125,39 @@ article {
   width: 1300px;
   margin: 0px;
   padding: 0px;
-  float: left;
   list-style: none;
   display: block;
+  font-family: 'Oswald', sans-serif;
 }
-.pre-footer-images li {
+.pre-footer-images-box li {
   margin: 0;
   float: left;
   list-style: none;
   width:325px;
+  height:330px;
+  display:inline-block;
 
+}
+.one{
+  background-image: url(assets/article-image-1.jpg);
+  width:325px;
+  height:330px;
+
+}
+.two{
+  background: url(assets/article-image-2.jpg);
+  width:325px;
+  height:330px;
+  }
+.three{
+  background: url(assets/article-image-3.jpg);
+  width:325px;
+  height:330px;
+}
+.four{
+  background: url(assets/article-image-4.jpg);
+  width:325px;
+  height:330px;
 }
 /* ^pre-footer^*/
 
@@ -141,9 +165,10 @@ article {
 
 /* footer */
 
-footer{
-  height:96px;
-  background-color:HSLA(204, 82%, 18%, 1);
+footer {
+height: 98px;
+margin-top: -2px;
+background-color: HSLA(204, 82%, 18%, 1);
 }
 .tiy {
 width: 370px;
