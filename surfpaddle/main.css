@@ -102,11 +102,15 @@ clear: both
 
 .main-section{
   width:860px;
+  height:1010px;
   float:left;
 }
 
 .side-bar{
-  float:right
+  float: right;
+  height: 1010px;
+  width: 440px;
+  display: block;
 
 
 }
@@ -187,9 +191,10 @@ background-repeat: no-repeat;
 
 footer {
 width: 1300px;
-margin-top: -2px;
+margin-top: 84px;
 background-color: HSLA(204, 82%, 18%, 1);
 float: left;
+display: block
 }
 .tiy {
 width: 370px;
@@ -225,5 +230,5 @@ color: HSLA(207, 19%, 70%, 1);
   border-width: 1px;
   padding: 4px;
   margin: 4px;
-  float:right;
+  float:left;
 }
