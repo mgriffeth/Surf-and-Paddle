@@ -14,48 +14,138 @@ header{
   position:relative;
 }
 .title{
-  position: absolute;
-  width:500px;
-  height:100px;
-  top:50%;
-  left:650px;
-  color:white;
+  width: 1000px;
+margin: 0 auto;
+color: white;
+text-align: center;
+clear: both;
 }
 .title h2 {
-  display: block;
-  position:absolute;
-  font-weight: bold;
+display: block;
+float: left;
+font-weight: 600;
+font-family: 'Open Sans', sans-serif;
+font-size: 97px;
+margin-left: 38px;
+margin-top: 132px;
+margin-bottom: -10px;
 }
+
 .title h5 {
-  display: block;
-  position:absolute;
-  font-weight: bold;
+display: block;
+font-weight: bold;
+clear: both;
+font-family: 'Open Sans', sans-serif;
+font-size: 13.5px;
+color:HSLA(204, 86%, 16%, 1);
 }
 
-.blog-title{
-  position: absolute;
-  float:left;
-  margin: 10px;
-  width: 350px;
-  height:10px;
+.blog-title {
+/* position: absolute; */
+float: left;
+/* margin: 10px; */
+width: 350px;
+height: 50px;
+margin-left: 141px;
+margin-top: 11px;
+/* margin-bottom: 80px; */
 }
-.blog-title img{
-  float:left;
-  margin-top:auto;
-  margin-bottom:auto;
+.blog-title img {
+float: left;
+margin-top: auto;
+margin-bottom: auto;
+margin-right: 11px;
+}
+
+#logo-text{
+margin-top: 10px;
+/* margin-left: 2px; */
+font-family: 'Open Sans', sans-serif;
+font-size: 16px;
+
 }
 
 
-.nav{
-  float:right;
-  width:300px;
+.nav {
+float: right;
+width: 200px;
+margin-right: 109px;
+margin-top: 18px;
+font-size: 18px;
+font-family: 'Oswald', sans-serif;
 }
-.nav h2{
-  float:left;
+.nav a{
+  float:left
+;
 }
 
 .search {
-  float: left;
-  margin-left: 10px;
+float: left;
+margin-left: 14px;
+
+}
+#search-icon {
+float: right;
+margin-left: 6px;
 }
 /* ^header^ */
+/* article */
+article {
+  height:1009px;
+}
+/* ^article^ */
+
+/*pre-footrt*/
+.pre-footer {
+height: 476px;
+margin-bottom: -18px;
+}
+/* ^pre-footer^*/
+
+
+
+/* footer */
+
+footer{
+  height:96px;
+  background-color:HSLA(204, 82%, 18%, 1);
+}
+.tiy {
+width: 370px;
+height: 55px;
+float: left;
+margin-top: 26px;
+margin-left: 165px;
+font-family: 'Open Sans', sans-serif;
+font-size: 13px;
+color: HSLA(208, 18%, 74%, 1);
+}
+
+#tiy-copyright {
+font-size: 12px;
+float: right;
+margin-top: 12px;
+/* margin-left: 5px; */
+}
+.footer-nav-box{
+
+}
+
+.footer-nav {
+float: right;
+display: block;
+padding: 0px;
+margin-right: 131px;
+margin-top: 30px;
+font-size: 15px;
+color: HSLA(207, 19%, 70%, 1);
+}
+
+.footer-nav li {
+  list-style: none;
+  border-right-style: solid;
+  border-width: 1px;
+  padding: 4px;
+  margin: 4px;
+  float:right;
+}
