@@ -148,21 +148,19 @@ display: block;
 margin-bottom: auto;
 margin-top: 9px;
 }
-.main-section p {
-float: left;
-padding-left: 162px;
-padding-top: 10px;
-font-size: 15px;
-line-height: 25px;
-padding-right: 74px;}
 
-.main-section h2 {
+.main-section-text {
 display: block;
-margin-top: auto;
 float: right;
-border-left-style: solid;
-border-width: 1px;
-width: 692px;
+width: 700px;
+}
+.main-section-text p {
+padding-right: 70px;
+margin-top: 26px;
+}
+
+.blockquote{
+
 }
 .main-section-buttons {
 float: right;
