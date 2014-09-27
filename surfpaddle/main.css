@@ -153,12 +153,13 @@ margin-top: 9px;
 clear: both;
 float: right;
 width: 696px;
+height: 665px
 }
 .main-body p {
 padding-right: 85px;
 float: left;
-line-height: 20px;
-margin-top: 28px;
+line-height: 25px;
+margin-top: 25px;
 }
 blockquote {
 float: left;
@@ -170,15 +171,34 @@ margin-left: 5px;
 height: 42px;
 font-size: 26px;
 margin-top: 5px;
-padding-top: 18px;
+padding-top: 21px;
 }
 .comment-buttons {
 float: right;
 clear: both;
-width: 692px;
+width: 695px;
 }
-.comment-buttons ol{
-  list-style:none;
+.comment-buttons ol {
+list-style: none;
+margin: none;
+padding-left: 0px;
+width: 690px;
+height: 30px;
+margin-top: 0;
+margin-bottom: 0;
+}
+
+.comment-buttons li{
+float:left;
+}
+#comments{
+
+}
+#later{
+
+}
+#share{
+
 }
 .side-bar{
   float: right;
