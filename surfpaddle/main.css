@@ -120,9 +120,7 @@ height: 132px;
 line-height: 68px;
 padding-top: 33px;
 }
-.main-section p{
 
-}
 #written {
 display: block;
 float: right;
@@ -149,6 +147,25 @@ margin-left: 15px;
 display: block;
 margin-bottom: auto;
 margin-top: 9px;
+}
+.main-section p {
+float: left;
+padding-left: 162px;
+padding-top: 10px;
+font-size: 15px;
+line-height: 25px;
+padding-right: 74px;}
+
+.main-section p span {
+display: block;
+margin: auto;
+float: left;
+border-left-style: solid;
+border-width: 1px;
+}
+
+.main-section-buttons{
+
 }
 .side-bar{
   float: right;
@@ -178,8 +195,7 @@ font-family: 'Open Sans', sans-serif;
 font-size: 15px;
 font-weight: bold;
 }
-element.style {
-}
+
 .social-media {
 list-style: none;
 font-family: 'Open Sans', sans-serif;
