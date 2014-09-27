@@ -334,9 +334,13 @@ blockquote {
   text-decoration: none;
   display: block;
   margin-top: 278px;
+  margin-bottom: 7px;
   font-size: 30px;
   padding-left: 16px;
   color: HSLA(240, 8%, 97%, 1);
+}
+
+
 }
 .one{
   background-image: url(assets/article-image-1.jpg);
@@ -344,6 +348,7 @@ blockquote {
   height:330px;
 
 }
+
 .two {
   background: url(assets/article-image-2.jpg);
   width:325px;
