@@ -251,48 +251,46 @@ padding-top: 18px;
 /*pre-footet*/
 
 .pre-footer {
-  height: 390px;
+height: 474px;
 margin-bottom: 0;
 border-top-style: solid;
 border-color: HSLA(203, 17%, 91%, 1);
 border-width: 1px;
 float: left;
-
 }
-
-.most-popular h3 {
+.most-popular {
+/* padding: 20px; */
+padding-top: 20px;
+height: 123px;
 text-align: center;
-display: block;
 font-family: 'Oswald', sans-serif;
-font-size: 61px;
-padding-top: 0px;
-color: HSLA(204, 82%, 18%, 1);
-margin-top: 22px;
-margin-bottom: 31px;
+font-size: 52px;
+display: block;
 }
-
-
+.most-popular h3 {
+margin: 0;
+}
 .pre-footer-images-box {
   height: 330px;
-  width: 1300px;
+  clear:both;
   margin: 0px;
   padding: 0px;
-  list-style: none;
+
   display: block;
-  font-family: 'Oswald', sans-serif;
-}
-.pre-footer-images-box li {
-  margin: 0;
-  float: left;
-  list-style: none;
-  width:325px;
-  height:330px;
-  display:inline-block;
 
 }
-.pre-footer-images-box a {
+.pre-footer-images-box li {
+margin: 0;
+float: left;
+list-style: none;
+background-repeat: no-repeat;
+}
+.pre-footer-images-box li a {
 background: transparent;
 background-repeat: no-repeat;
+text-decoration: none;
+display: block;
+margin-top: 304px;
 }
 .one{
   background-image: url(assets/article-image-1.jpg);
@@ -323,7 +321,7 @@ background-repeat: no-repeat;
 
 footer {
 width: 1300px;
-margin-top: 84px;
+margin-top: 0px;
 background-color: HSLA(204, 82%, 18%, 1);
 float: left;
 display: block
