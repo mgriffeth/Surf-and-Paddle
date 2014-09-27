@@ -305,42 +305,41 @@ blockquote {
   font-family: 'Oswald', sans-serif;
 }
 .most-popular {
-  padding-top: 20px;
-  height: 123px;
-  text-align: center;
-  font-family: 'Oswald', sans-serif;
-  font-size: 52px;
-  display: block;
+padding-top: 20px;
+height: 123px;
+text-align: center;
+font-family: 'Oswald', sans-serif;
+font-size: 52px;
+display: block;
 }
 .most-popular h3 {
-  margin-top: 0;
-  margin-bottom: 32px;
+margin-top: 0;
+margin-bottom: 32px;
 }
 .pre-footer-images-box {
+
   clear:both;
   margin: 0px;
   padding: 0px;
+
   display: block;
+
 }
 .pre-footer-images-box li {
-  margin: 0;
-  float: left;
-  list-style: none;
-  background-repeat: no-repeat;
+margin: 0;
+float: left;
+list-style: none;
+background-repeat: no-repeat;
 }
 .pre-footer-images-box li a {
-  background: transparent;
-  background-repeat: no-repeat;
-  text-decoration: none;
-  display: block;
-  margin-top: 278px;
-  margin-bottom: 7px;
-  font-size: 30px;
-  padding-left: 16px;
-  color: HSLA(240, 8%, 97%, 1);
-}
-
-
+background: transparent;
+background-repeat: no-repeat;
+text-decoration: none;
+display: block;
+margin-top: 278px;
+font-size: 30px;
+padding-left: 16px;
+color: HSLA(240, 8%, 97%, 1);
 }
 .one{
   background-image: url(assets/article-image-1.jpg);
@@ -348,7 +347,6 @@ blockquote {
   height:330px;
 
 }
-
 .two {
   background: url(assets/article-image-2.jpg);
   width:325px;
