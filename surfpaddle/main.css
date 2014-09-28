@@ -203,15 +203,16 @@ border-color:HSLA(0, 0%, 80%, 1);
   display: inline-block;
   text-align: center;
   height: 29px;
+
 }
 .comment-buttons a {
   text-decoration: none;
   font-family: 'Open Sans', sans-serif;
   background-color: rgb(163,179,191);
-  padding-top: 7px;
+  padding-top: 5px;
   margin-top: 1px;
   width: 123px;
-  height: 21px;
+  height: 23px;
   float: right;
 }
 .comment-buttons a:hover{
@@ -325,6 +326,13 @@ color: HSLA(205, 18%, 71%, 1);
 .side-section p{
   color:HSLA(206, 18%, 69%, 1);
 }
+.side-section a{
+  text-decoration:underline;
+}
+.side-section a:active, .side-section a:hover {
+  outline: 0;
+  color: HSLA(206, 84%, 38%, 1);
+}
 /* ^article^ */
 
 /*pre-footer*/
@@ -363,23 +371,15 @@ margin-bottom: 32px;
   list-style: none;
   opacity: .5;
 }
-.pre-footer-images-box li:hover  {
-  opacity:1;
-}
 .pre-footer-images-box li a {
-background: transparent;
-background-repeat: no-repeat;
-text-decoration: none;
-display: block;
-margin-top: 278px;
-font-size: 30px;
-padding-left: 16px;
-color: HSLA(240, 8%, 97%, 1);
-opacity:.5;
+  background: transparent;
+  text-decoration: none;
+  display: block;
+  margin-top: 278px;
+  font-size: 30px;
+  padding-left: 16px;
 }
-.pre-footer-images-box a:hover {
-  opacity:1;
-}
+
 .one{
   background-image: url(assets/article-image-1.jpg);
   width:325px;
