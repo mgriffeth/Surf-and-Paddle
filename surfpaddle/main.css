@@ -370,16 +370,25 @@ margin-bottom: 32px;
   float: left;
   list-style: none;
   opacity: .5;
-}
-.pre-footer-images-box li a {
-  background: transparent;
-  text-decoration: none;
-  display: block;
-  margin-top: 278px;
-  font-size: 30px;
-  padding-left: 16px;
+  color:HSLA(204, 82%, 18%, 1);
 }
 
+
+.pre-footer-images-box li a {
+/* background: transparent; */
+background-repeat: no-repeat;
+text-decoration: none;
+display: block;
+margin-top: 278px;
+font-size: 30px;
+padding-left: 16px;
+/* opacity: .5; */
+color:inherit;
+}
+.pre-footer-images-box li:hover {
+  opacity:1;
+  color:white;
+}
 .one{
   background-image: url(assets/article-image-1.jpg);
   width:325px;
