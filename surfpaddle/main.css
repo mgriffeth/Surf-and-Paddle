@@ -3,7 +3,6 @@ font-family: 'Open Sans', sans-serif;*/
 
 .container{
   width:1300px;
-
   margin:auto;
 }
 /* header */
@@ -133,6 +132,7 @@ article {
   font-size: 11px;
   font-weight: bolder;
   margin-left: 3px;
+  color:HSLA(206, 84%, 38%, 1);
 }
 #written h5 {
   float: left;
@@ -140,13 +140,29 @@ article {
   display: block;
   margin-bottom: auto;
   margin-top: 9px;
+  color:HSLA(206, 18%, 69%, 1);
 }
-
+#written a{
+  color: HSLA(206, 18%, 69%, 1);
+}
+#written a:active, #written a:hover {
+  outline: 0;
+  color: HSLA(206, 84%, 38%, 1);
+}
 .main-body {
   clear: both;
   float: right;
   width: 696px;
   height: 665px
+}
+
+.main-body a{
+  text-decoration:underline;
+  color:HSLA(206, 18%, 69%, 1);
+}
+.main-body a:active, .main-body a:hover {
+outline: 0;
+color: HSLA(206, 84%, 38%, 1);
 }
 .main-body p {
   padding-right: 85px;
@@ -200,6 +216,7 @@ border-color:HSLA(0, 0%, 80%, 1);
 }
 .comment-buttons a:hover{
   background-color:HSLA(206, 85%, 38%, 1);
+  color:white;
 }
 
 .comment-buttons img {
@@ -289,6 +306,7 @@ color: HSLA(205, 18%, 71%, 1);
   font-weight: bold;
   font-size: 14px;
   letter-spacing: -1px;
+  color:HSLA(206, 18%, 69%, 1);
 }
 
 .side-section {
@@ -303,6 +321,9 @@ color: HSLA(205, 18%, 71%, 1);
   padding-top: 18px;
   margin-bottom: -7px;
   color: HSLA(206, 85%, 38%, 1);
+}
+.side-section p{
+  color:HSLA(206, 18%, 69%, 1);
 }
 /* ^article^ */
 
