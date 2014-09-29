@@ -67,8 +67,9 @@ header{
   font-size: 18px;
   font-family: 'Oswald', sans-serif;
 }
-.nav a{
-  float:left;
+.nav a {
+  float: left;
+  font-weight: 700;
 }
 
 .search {
