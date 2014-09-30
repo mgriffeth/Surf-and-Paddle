@@ -193,7 +193,6 @@ blockquote {
   padding-right: 12px;
   padding-left: 9px;
   margin-left: 18px;
-  vertical-align: baseline;
   margin-top: 1px;
   float: left;
   margin-left: 0; }
@@ -316,6 +315,8 @@ blockquote {
   height: 330px;
   background-color: HSLA(204, 82%, 18%, 1); }
   .pre-footer-images-box li {
+    width: 325px;
+    height: 330px;
     margin: 0;
     float: left;
     list-style: none;
@@ -333,25 +334,17 @@ blockquote {
     opacity: 1;
     color: white; }
   .pre-footer-images-box .one {
-    background-image: url(assets/article-image-1.jpg);
-    width: 325px;
-    height: 330px; }
+    background-image: url(assets/article-image-1.jpg); }
   .pre-footer-images-box .two {
-    background: url(assets/article-image-2.jpg);
-    width: 325px;
-    height: 330px; }
+    background: url(assets/article-image-2.jpg); }
   .pre-footer-images-box .three {
-    background: url(assets/article-image-3.jpg);
-    width: 325px;
-    height: 330px; }
+    background: url(assets/article-image-3.jpg); }
     .pre-footer-images-box .three a {
       margin-top: 244px;
       padding-right: 79px;
       line-height: 36px; }
   .pre-footer-images-box .four {
-    background: url(assets/article-image-4.jpg);
-    width: 325px;
-    height: 330px; }
+    background: url(assets/article-image-4.jpg); }
 
 /* ^pre-footer^*/
 /* footer */

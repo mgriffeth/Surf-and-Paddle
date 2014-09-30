@@ -399,17 +399,23 @@ blockquote {
   li:hover {
     opacity:1;
     color:white;
-  }
+    }
   .one{
     background-image: url(assets/article-image-1.jpg);
 
+    a{
+
+    }
+
   }
+
+
+
   .two {
     background: url(assets/article-image-2.jpg);
     }
   .three{
     background: url(assets/article-image-3.jpg);
-    }
 
     a{
       margin-top: 244px;
