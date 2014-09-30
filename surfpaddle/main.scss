@@ -1,15 +1,19 @@
 $font-oswald: 'Oswald', sans-serif;
 $font-open: 'Open Sans', sans-serif;
+
 $w: 1300px;
+
 $footer-blue: HSLA(204, 82%, 18%, 1);
 $footer-grey: HSLA(207, 19%, 70%, 1);
 $reg-blue:  HSLA(206, 83%, 38%, 1);
 $img-background: HSLA(205, 8%, 40%, 1);
 $main-text-color:HSLA(206, 18%, 69%, 1);
+
 @mixin post-box(){
   width:325px;
   height:330px;
 }
+
 .container{
   width:$w;
   margin:auto;
