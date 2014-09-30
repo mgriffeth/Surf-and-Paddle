@@ -6,7 +6,10 @@ $footer-grey: HSLA(207, 19%, 70%, 1);
 $reg-blue:  HSLA(206, 83%, 38%, 1);
 $img-background: HSLA(205, 8%, 40%, 1);
 $main-text-color:HSLA(206, 18%, 69%, 1);
-
+@mixin post-box(){
+  width:325px;
+  height:330px;
+}
 .container{
   width:$w;
   margin:auto;
@@ -230,7 +233,6 @@ blockquote {
   padding-right: 12px;
   padding-left: 9px;
   margin-left: 18px;
-  vertical-align: baseline;
   margin-top: 1px;
   float: left;
   margin-left: 0;
@@ -374,6 +376,7 @@ blockquote {
   background-color:$footer-blue;
 
   li {
+    @include post-box();
     margin: 0;
     float: left;
     list-style: none;
@@ -395,18 +398,14 @@ blockquote {
   }
   .one{
     background-image: url(assets/article-image-1.jpg);
-    width:325px;
-    height:330px;
+
   }
   .two {
     background: url(assets/article-image-2.jpg);
-    width:325px;
-    height:330px;
     }
   .three{
     background: url(assets/article-image-3.jpg);
-    width:325px;
-    height:330px;
+    }
 
     a{
       margin-top: 244px;
@@ -416,13 +415,8 @@ blockquote {
   }
   .four{
     background: url(assets/article-image-4.jpg);
-    width:325px;
-    height:330px;
-  }
+      }
 }
-
-
-
 
 /* ^pre-footer^*/
 /* footer */
